@@ -12,10 +12,38 @@ body{
 
 #info{
 
-    height: 50%;
-    width: 25%;
+    height: 93%;
+    width: 43%;
     background-color:brown;
+    
     
     
 }
 
+#titulo{
+
+    font-size: 60pt;
+    text-align: center;
+
+
+}
+
+#imgartista{
+    align-items: center;
+    top: 10%;
+    position: absolute;
+    margin: 0;
+    background-color: chartreuse;        
+}
+
+#imgartista img{  
+    scale: 60%;
+
+
+}
+
+#texto{
+
+    text-align: center;
+
+}
