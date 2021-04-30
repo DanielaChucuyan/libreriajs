@@ -15,8 +15,7 @@ body{
     height: 93%;
     width: 43%;
     background-color:brown;
-    
-    
+       
     
 }
 
@@ -29,21 +28,24 @@ body{
 }
 
 #imgartista{
+    align-items:center;
+    top: 5%;
+    position:static;
+    display: grid;
     align-items: center;
-    top: 10%;
-    position: absolute;
-    margin: 0;
-    background-color: chartreuse;        
+    justify-content: center;
 }
 
 #imgartista img{  
     scale: 60%;
+    align-items: center;
 
 
 }
 
 #texto{
-
+    font-size: 15pt;
     text-align: center;
+    margin: auto;
 
 }
