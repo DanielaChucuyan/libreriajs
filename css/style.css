@@ -44,47 +44,80 @@ body{
 }
 
 /*En cada div se visualiza una banda musical diferente*/
-#banda1,#banda2,#banda3,#banda4,#banda5,#banda6{
+.groupIcon{
       width: 5vw;
       height: 5vw;
       background-color: rgb(156, 102, 32);
       border-radius: 60%;
       position: absolute;
       display: flex;
+      transition: all 0.5s;
+      cursor: pointer;
 }
 
 #banda1{
+    background-image: url("../img/TallyHall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 50%;
     left: 35%;
 }
 
 #banda2{
+    background-image: url("../img/AT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 67%;
     left: 30%;
 }
 
 #banda3{
+    background-image: url("../img/ROJUU.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 84%;
     left: 35%;
 }
 
 #banda4{
+    background-image: url("../img/HALFALIVE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 50%;
     right: 35%;
 }
 
 #banda5{
+    background-image: url("../img/TallyHall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 67%;
     right: 30%;
 }
 
 #banda6{
+    background-image: url("../img/TallyHall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 84%;
     right: 35%;
+}
+
+/*Nombre de las bandas*/
+
+#nombre1{
+    width: 10vw;
+    height: 10vw;
+    font-size: 2vw;
+    color: black;
+    margin-top: 26%;
+    margin-left: 19%;
+
+    display: flex;
 }
