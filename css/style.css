@@ -2,7 +2,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: rgb(181, 202, 167);
     overflow: hidden;
     display: flex;
     margin: 0;
@@ -24,7 +24,7 @@ body{
     
     height: 20%;
     width: 50%;
-    background-color: lightcoral;
+    background-color: rgb(179, 154, 127);
     display: flex;
     position: absolute;
     top: 20%;
@@ -33,58 +33,89 @@ body{
 
 
 /*En el div se visualiza el nombre de la banda musical*/
-#nombre{
-      width: 10vw;
-      height: 10vw;
-      background-color: burlywood;
-      border-radius: 60%;
-      position: absolute;
-      display: flex;
-      top: 62%;
+#vinilo{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 60%;
+    position: absolute;
+    display: flex;
+    top: 62%;
+    background-image: url("../img/VINILO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*En cada div se visualiza una banda musical diferente*/
-#banda1,#banda2,#banda3,#banda4,#banda5,#banda6{
+.groupIcon{
       width: 5vw;
       height: 5vw;
       background-color: rgb(156, 102, 32);
       border-radius: 60%;
       position: absolute;
       display: flex;
+      transition: all 0.5s;
+      cursor: pointer;
 }
 
 #banda1{
+    background-image: url("../img/TallyHall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 50%;
     left: 35%;
 }
 
 #banda2{
+    background-image: url("../img/AT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 67%;
     left: 30%;
 }
 
 #banda3{
+    background-image: url("../img/ROJUU.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 84%;
     left: 35%;
 }
 
 #banda4{
+    background-image: url("../img/HALFALIVE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 50%;
     right: 35%;
 }
 
 #banda5{
+    background-image: url("../img/BOARD.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 67%;
     right: 30%;
 }
 
 #banda6{
+    background-image: url("../img/LEAN.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     top: 84%;
     right: 35%;
+}
+
+/*Nombre de las bandas*/
+
+#nombres{
+    width: 10vw;
+    height: 10vw;
+    color: rgb(255, 255, 255);
+    display: flex;
 }
