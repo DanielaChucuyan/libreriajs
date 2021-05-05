@@ -28,22 +28,43 @@ body{
 
 }
 
-#imgartista{
+#imgArtista{
+
+    width: 100%;
+    margin: 0;  
+    top: 20%;
+
+    display: flex;
     align-items: center;
-    top: 10%;
-    position: absolute;
-    margin: 0;
-    background-color: chartreuse;        
+    justify-content: center;
+
+     
 }
 
-#imgartista img{  
-    scale: 60%;
+#imgArtista img{  
+    width: 60%;
 
 
 }
 
 #texto{
+    width: 38%;
+    left: 31%;
+    top: 50%;
+    background-color: burlywood;
+    position: absolute;
+    font-size: 14pt;
 
-    text-align: center;
+}
 
+#video{
+    width: 38%;
+    left: 31%;
+    margin: 0;
+    bottom: 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
