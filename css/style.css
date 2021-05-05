@@ -2,7 +2,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: rgb(181, 202, 167);
     overflow: hidden;
     display: flex;
     margin: 0;
@@ -24,7 +24,7 @@ body{
     
     height: 20%;
     width: 50%;
-    background-color: lightcoral;
+    background-color: rgb(179, 154, 127);
     display: flex;
     position: absolute;
     top: 20%;
@@ -33,14 +33,16 @@ body{
 
 
 /*En el div se visualiza el nombre de la banda musical*/
-#nombre{
-      width: 10vw;
-      height: 10vw;
-      background-color: burlywood;
-      border-radius: 60%;
-      position: absolute;
-      display: flex;
-      top: 62%;
+#vinilo{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 60%;
+    position: absolute;
+    display: flex;
+    top: 62%;
+    background-image: url("../img/VINILO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*En cada div se visualiza una banda musical diferente*/
@@ -92,7 +94,7 @@ body{
 }
 
 #banda5{
-    background-image: url("../img/TallyHall.jpg");
+    background-image: url("../img/BOARD.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -101,7 +103,7 @@ body{
 }
 
 #banda6{
-    background-image: url("../img/TallyHall.jpg");
+    background-image: url("../img/LEAN.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -111,13 +113,9 @@ body{
 
 /*Nombre de las bandas*/
 
-#nombre1{
+#nombres{
     width: 10vw;
     height: 10vw;
-    font-size: 2vw;
-    color: black;
-    margin-top: 26%;
-    margin-left: 19%;
-
+    color: rgb(255, 255, 255);
     display: flex;
 }
