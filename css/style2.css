@@ -14,10 +14,9 @@ body{
 
     height: 93%;
     width: 43%;
-    background-color:brown;
-       
-    
+      background-color:brown;
 }
+
 
 #titulo{
 
@@ -27,25 +26,45 @@ body{
 
 }
 
-#imgartista{
-    align-items:center;
-    top: 5%;
-    position:static;
-    display: grid;
+#imgArtista{
+
+    width: 100%;
+    margin: 0;  
+    top: 20%;
+
+    display: flex;
     align-items: center;
     justify-content: center;
+
+     
 }
 
-#imgartista img{  
-    scale: 60%;
-    align-items: center;
+#imgArtista img{  
+    width: 60%;
+
 
 
 }
 
 #texto{
-    font-size: 15pt;
-    text-align: center;
-    margin: auto;
+    width: 38%;
+    left: 31%;
+    top: 50%;
+    background-color: burlywood;
+    position: absolute;
+    font-size: 14pt;
 
+}
+
+#video{
+    width: 38%;
+    left: 31%;
+    margin: 0;
+    bottom: 7%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
