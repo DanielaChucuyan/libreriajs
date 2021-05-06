@@ -1,4 +1,4 @@
-body{
+/* body{
 
     height: 100vh;
     justify-content: center;
@@ -8,23 +8,39 @@ body{
     display: flex;
     margin: 0%;
     
-}
+} */
 
 #info{
 
     height: 93%;
     width: 43%;
-    background-color:brown;
-    
+    background-color:rgb(43, 94, 77);
+    z-index: 23;
     
     
 }
 
-#titulo{
+#cerrar{
+    width: 2%;
+    height: 4%;
+    display: flex;
+    position: absolute;
+    top:5%;
+    right: 29.3%;
+    cursor: pointer;
+}
+
+#cerrar img{
+    width: 100%;
+    
+}
+
+#tituloA{
 
     font-size: 60pt;
     text-align: center;
 
+    
 
 }
 
@@ -38,11 +54,14 @@ body{
     align-items: center;
     justify-content: center;
 
+    
      
 }
 
 #imgArtista img{  
     width: 60%;
+
+    
 
 
 }
@@ -54,6 +73,8 @@ body{
     background-color: burlywood;
     position: absolute;
     font-size: 14pt;
+
+
 
 }
 
@@ -67,4 +88,6 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
+
+
 }

@@ -6,6 +6,9 @@ let banda5audio=document.getElementById("audio5");
 let banda6audio=document.getElementById("audio6");
 
 
+let ventanaInfo=document.getElementById("info")
+
+// ESCALAR CIRCULO
 
 function escalar(){
     $(this).css({
@@ -24,6 +27,8 @@ function normal(){
 $(".groupIcon").mouseover(escalar)
 $(".groupIcon").mouseleave(normal)
 
+
+// TITULO Y AUDIO
 
 $("#banda1").mouseover(function(){
     $("#nombres").html("TALLY HALL");
@@ -104,6 +109,9 @@ $("#banda2").mouseover(function(){
 
   });
 
+
+// DETENER MUSICA
+
 $(".groupIcon").mouseleave(function(){
     $("#nombres").html(" ");
     banda1audio.pause();
@@ -124,5 +132,21 @@ $(".groupIcon").mouseleave(function(){
     banda6audio.pause();
     banda6audio.currentTime=0;
 });
+
+
+// VISUALIZAR INFORMACION
+
+$("#info").hide();
+
+$("#banda1").click(function(){
+  $("#info").show();
+
+});
+
+$("#cerrar").click(function(){
+  $("#info").hide();
+
+});
+
 
 
