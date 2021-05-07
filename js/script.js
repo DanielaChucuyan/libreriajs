@@ -136,17 +136,92 @@ $(".groupIcon").mouseleave(function(){
 
 // VISUALIZAR INFORMACION
 
-$("#info").hide();
+// BANDA1
+
+$("#info1").hide();
 
 $("#banda1").click(function(){
-  $("#info").show();
+  $("#info1").show();
 
 });
 
 $("#cerrar").click(function(){
-  $("#info").hide();
+  $("#info1").hide();
 
 });
+
+// BANDA2
+
+$("#info2").hide();
+
+$("#banda2").click(function(){
+  $("#info2").show();
+
+});
+
+$("#cerrar2").click(function(){
+  $("#info2").hide();
+
+});
+
+// BANDA3
+
+$("#info3").hide();
+
+$("#banda3").click(function(){
+  $("#info3").show();
+
+});
+
+$("#cerrar3").click(function(){
+  $("#info3").hide();
+
+});
+
+// BANDA4
+
+$("#info4").hide();
+
+$("#banda4").click(function(){
+  $("#info4").show();
+
+});
+
+$("#cerrar4").click(function(){
+  $("#info4").hide();
+
+});
+
+// BANDA5
+
+$("#info5").hide();
+
+$("#banda5").click(function(){
+  $("#info5").show();
+
+});
+
+$("#cerrar5").click(function(){
+  $("#info5").hide();
+
+});
+
+// BANDA6
+
+$("#info6").hide();
+
+$("#banda6").click(function(){
+  $("#info6").show();
+
+});
+
+$("#cerrar6").click(function(){
+  $("#info6").hide();
+
+});
+
+
+
 
 
 
