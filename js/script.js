@@ -5,7 +5,7 @@ let banda4audio=document.getElementById("audio4");
 let banda5audio=document.getElementById("audio5");
 let banda6audio=document.getElementById("audio6");
 
-
+let angulovinilo=0;
 let ventanaInfo=document.getElementById("info")
 
 // ESCALAR CIRCULO
@@ -24,8 +24,8 @@ function normal(){
     )
 }
 
-$(".groupIcon").mouseover(escalar)
-$(".groupIcon").mouseleave(normal)
+$(".groupIcon").mouseover(escalar);
+$(".groupIcon").mouseleave(normal);
 
 
 // TITULO Y AUDIO
@@ -38,7 +38,7 @@ $("#banda1").mouseover(function(){
         "margin-top":"26%",
     }
     )
-
+    
     banda1audio.play();
     
   });
