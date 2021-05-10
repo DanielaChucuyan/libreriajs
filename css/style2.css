@@ -17,7 +17,7 @@
 
     height: 93%;
     width: 43%;
-    background-color:rgb(43, 94, 77);
+    background-color:rgb(155, 182, 207);
     z-index: 23;
     
     
@@ -73,11 +73,10 @@
     width: 38%;
     left: 31%;
     top: 50%;
-    background-color: burlywood;
     position: absolute;
     font-size: 14pt;
 
-
+    font-weight: bold;
 
 }
 
@@ -102,7 +101,7 @@
 
     height: 93%;
     width: 43%;
-    background-color:rgb(43, 94, 77);
+    background-color:rgb(155, 182, 207);
     z-index: 23;
     
     
@@ -158,10 +157,9 @@
     width: 38%;
     left: 31%;
     top: 50%;
-    background-color: burlywood;
     position: absolute;
     font-size: 14pt;
-
+    font-weight: bold;
 
 
 }
@@ -175,7 +173,7 @@
 
     height: 93%;
     width: 43%;
-    background-color:rgb(43, 94, 77);
+    background-color:rgb(155, 182, 207);
     z-index: 23;
     
     
@@ -231,11 +229,10 @@
     width: 38%;
     left: 31%;
     top: 50%;
-    background-color: burlywood;
     position: absolute;
     font-size: 14pt;
 
-
+    font-weight: bold;
 
 }
 
@@ -246,7 +243,7 @@
 
     height: 93%;
     width: 43%;
-    background-color:rgb(43, 94, 77);
+    background-color:rgb(155, 182, 207);
     z-index: 23;
     
     
@@ -302,11 +299,10 @@
     width: 38%;
     left: 31%;
     top: 50%;
-    background-color: burlywood;
     position: absolute;
     font-size: 14pt;
 
-
+    font-weight: bold;
 
 }
 
@@ -331,7 +327,7 @@
 
     height: 93%;
     width: 43%;
-    background-color:rgb(43, 94, 77);
+    background-color:rgb(155, 182, 207);
     z-index: 23;
     
     
@@ -387,10 +383,9 @@
     width: 38%;
     left: 31%;
     top: 50%;
-    background-color: burlywood;
     position: absolute;
     font-size: 14pt;
-
+    font-weight: bold;
 
 
 }
@@ -416,7 +411,7 @@
 
     height: 93%;
     width: 43%;
-    background-color:rgb(43, 94, 77);
+    background-color:rgb(155, 182, 207);
     z-index: 23;
     
     
@@ -472,10 +467,9 @@
     width: 38%;
     left: 31%;
     top: 50%;
-    background-color: burlywood;
     position: absolute;
     font-size: 14pt;
-
+    font-weight: bold;
 
 
 }

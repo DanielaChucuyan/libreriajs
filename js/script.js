@@ -5,6 +5,7 @@ let banda4audio=document.getElementById("audio4");
 let banda5audio=document.getElementById("audio5");
 let banda6audio=document.getElementById("audio6");
 
+let vinilo=document.getElementById("vinilo");
 
 let ventanaInfo=document.getElementById("info")
 
@@ -13,15 +14,20 @@ let ventanaInfo=document.getElementById("info")
 function escalar(){
     $(this).css({
     "scale":"1.5",
-    }
-    )
+    
+    }),
+    vinilo.style.animationName="girar";
+
+    
 }
 
 function normal(){
     $(".groupIcon").css({
     "scale":"1",
-    }
-    )
+    }),
+    vinilo.style.animationName=null;
+
+    
 }
 
 $(".groupIcon").mouseover(escalar)
@@ -38,6 +44,7 @@ $("#banda1").mouseover(function(){
         "margin-top":"26%",
     }
     )
+    
 
     banda1audio.play();
     

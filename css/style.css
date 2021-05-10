@@ -15,22 +15,26 @@ body{
     position: absolute;
     display: flex;
     top: 3%;
-    font-size: 50pt;
+    font-size: 3vw;
 }
 
 /* Contexto de la página */
 
+
+
+
 #intro{
-    
+    width: 60%;
     height: 35%;
-    right: 10%;
+    right: 20vw;
     display: flex;
     position: absolute;
-    top: 15%;
+    top: 15vh;
+    
 }
 
 #intro img{
-    width: 80%;
+    width: 100%;
     
 }
 
@@ -39,8 +43,8 @@ body{
     position: absolute;
     display: flex;
     top: 20%;
-    font-size: 23pt;
-    left: 28.5%;
+    font-size: 1vw;
+    left: 14%;
     
     font-weight: bold;
 }
@@ -56,6 +60,8 @@ body{
     background-image: url("../img/VINILO.png");
     background-repeat: no-repeat;
     background-size: cover;
+    animation: 3.5s infinite linear;
+    
 }
 
 /*En cada div se visualiza una banda musical diferente*/
@@ -131,9 +137,15 @@ body{
     height: 10vw;
     color: rgb(255, 255, 255);
     display: flex;
+
 }
 
 
 
 
+@keyframes girar {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
 
+  
